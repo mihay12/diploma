@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+header h1.text-logo {
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+header a, header a{
+    padding:5px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius:10px;
+}
+
+header a:hover, header a:hover{
+    background-color: black;
+    color: white;
+    border:1px solid grey;
+    transition: 2s;
+}

@@ -1,0 +1,72 @@
+:root {
+    font-family: "Roboto", cursive;
+}
+
+body {
+    background-image: url(../img/background.webp);
+    max-width: 980px;
+    margin: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+div.container nav {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+div.container nav  a{
+    padding:2px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius:10px;
+}
+
+div.container nav  a:hover{
+    background-color: black;
+    color: white;
+    border:1px solid grey;
+    transition: 2s;
+}
+
+div.container div.search {
+    margin: 20px 0 20px 80%;
+}
+
+div.container div.channels {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.container div.channels div{
+    height: 50%;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color:white;
+}
+
+div.container div.block-btn a.btn {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+}
+
+div.container div.block-btn a.btn:hover {
+    background-color:rgba(0, 0, 0, 1);
+}
+
+div.container div.block-btn{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}

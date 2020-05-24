@@ -1,0 +1,111 @@
+body {
+    background: url(img/background.webp);
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", cursive;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+.container,.conteiner1{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*header*/
+
+.header,.panel1{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: inherit;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+}
+.panel1{
+    height: 40px;
+}
+.header span a, .container div span a,.container1 div span a{
+    padding:5px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius:10px;
+}
+.logo2{
+    height: 300px;
+    width: 300px;
+}
+/*footer*/
+
+.logo{
+    height: 1.5%;
+    width: 1.5%;
+}
+.footer{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+}
+.container div{
+    margin-top: 3%;
+}
+.container{
+    height: 50em;
+}
+.container1{
+    height: 60em;
+}
+#kanal1,{
+    height: 50%;
+    width: 10%;
+    padding:10px;
+    background-color: white;
+    border:1px solid #808080;
+    border-radius:10px;
+    float: left;
+    margin-left: 17%;
+}
+.kanal1{
+    height: 50%;
+    width: 20%;
+    padding:10px;
+    background-color: white;
+    border:1px solid #808080;
+    border-radius:10px;
+    float: left;
+    margin-left: 17%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;}
+.input1{
+    float: right;
+    color: #808080;
+    border-color: #808080;
+}
+.baton span{
+    padding: 1%;
+    color: white;
+    background-color: black;
+    float: left;
+    position: relative;
+    top: 400px;
+    right: 715px;
+}
+
+.knopki{
+    font-size: 2em;
+}
