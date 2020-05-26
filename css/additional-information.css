@@ -1,0 +1,23 @@
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container div.blocks div.block img.image {
+    max-width: 100%;
+}
+
+@media(min-width: 300px) {
+    div.container div.blocks {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media(min-width: 700px) {
+    div.container div.blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
